@@ -1,0 +1,30 @@
+Щоб добавити нового користувача треба запросити його через гытхаб
+
+git info - підказки команд гіт
+
+git log - показує комміти які є в історії
+git show - і передати хеш суму вона покаже, що в середені комміта (хеш сумма - імя комміта)
+git log -p  - показує більш детально відомості про комміти
+git restore index.html - откат змін
+git diff - які зміни були внесенні з останього комміта
+git diff --staged - які зміни були підготовлені до комміта
+
+git config --list - переглянути всі існуючі настройки якщо там є юзер нейм то їх задавати не треба
+git config --global user.name "name"
+git config --global user.email "email"
+git init   - для создания 
+git status
+git add . / git add index.html
+git status
+git commit -m ""
+
+git remote add origin (вставити сюди ssh/https ключ) - для приэднання  
+git checkout -B branchName - створити гілку
+git branch - подивитися які є гілки
+git checkout (branchname) - перейти до гілки
+git branch -d (branchname) - видалити гілку
+git push --set-upstream origin (branchname) - включити слыдкування за гылкою
+git merge (branchname)
+......
+.gitignore
+
